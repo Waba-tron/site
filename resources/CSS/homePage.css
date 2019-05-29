@@ -15,8 +15,6 @@
 /*--Same header styling will be applied to all html pages.Will be used throughout the whole website.--*/
 .homeHeader {
 
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(22, 100, 208)), to(rgba(0, 0, 0, 0))), url(imgs/FirstHeader-min.jpg);
-
 	background-image: linear-gradient(rgb(22, 100, 208), rgba(0, 0, 0, 0)), url(imgs/FirstHeader-min.jpg);
 	height: 100vh;
 	background-size: cover;
