@@ -1,0 +1,114 @@
+/*--------*/
+/*HEADING*/
+/*--------*/
+.UniLifeHeader {
+
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(22, 100, 208)), to(rgba(4, 81, 229, 0.46))), url(imgs/uniLifeheader-min.jpg);
+
+	background-image: linear-gradient(rgb(22, 100, 208), rgba(4, 81, 229, 0.46)), url(imgs/uniLifeheader-min.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	/*--ANIMATION--*/
+}
+
+.Universitytitle {
+
+	font-family: 'Chivo', sans-serif;
+	color: white;
+	font-size: 500%;
+	position: absolute;
+	word-spacing: 5px;
+	right: 25%;
+	text-transform: uppercase;
+
+}
+
+/*-------------*/
+/*----TEXT-----*/
+/*-------------*/
+.box p {
+
+	padding: 5px;
+}
+
+/*-------------------------------*/
+/*-----------Pictures------------*/
+/*-------------------------------*/
+.uniEx img {
+	width: 100%;
+}
+
+.JD {
+	height: 80vh;
+}
+
+/*------------------------------------------*/
+
+.Years {
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.Years li {
+	display: inline-block;
+	margin-left: 40px;
+	margin-right: 40px;
+
+
+}
+
+.Years li a:link,
+.Years li a:visited {
+	color: black;
+	text-decoration: none;
+	padding-bottom: 5px;
+	border-bottom: 2px solid transparent;
+	-webkit-transition: border-bottom 0.5s;
+	transition: border-bottom 0.5s;
+
+}
+
+.Years li a:active,
+.Years li a:hover {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #1664d0;
+	-webkit-transition: border-bottom 0.5s;
+	transition: border-bottom 0.5s;
+
+}
+
+/*********media queries****************/
+
+@media only screen and (max-width: 850px) {
+
+	.Years li {
+		margin-bottom: 20px;
+		display: block;
+	}
+
+
+	.JD {
+		height: 50vh;
+	}
+
+	.Universitytitle {
+		font-size: 300%;
+		right: 10%;
+	}
+
+}
+
+@media only screen and (max-width: 750px) {
+
+	.UniLifeHeader {background-size: 120vw 100vh;}
+
+}

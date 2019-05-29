@@ -1,0 +1,36 @@
+/*--------*/
+/*HEADING*/
+/*--------*/
+.WorkLifeHeader {
+
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(22, 100, 208)), to(rgba(4, 81, 229, 0.46))), url(imgs/workLifeHeader-min.jpg);
+
+	background-image: linear-gradient(rgb(22, 100, 208), rgba(4, 81, 229, 0.46)), url(imgs/workLifeHeader-min.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	/*--ANIMATION--*/
+}
+
+.WorkLifetitle {
+
+	font-family: 'Chivo', sans-serif;
+	color: white;
+	font-size: 500%;
+	position: absolute;
+	word-spacing: 5px;
+	right: 25%;
+	text-transform: uppercase;
+
+}
+
+@media only screen and (max-width: 780px) {
+
+	.WorkLifetitle {font-size: 350%;}
+
+	.WorkLifeHeader {
+		background-size: 180vw 100vh;
+	}
+
+}
